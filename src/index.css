@@ -1,13 +1,105 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Home Page */
+body,
+html,
+.center-image {
+  height: 100%;
+}
+.active-home {
+  color: #d14233;
+  background-color: transparent;
+}
+.navbar-home {
+  background: transparent;
+  color: #d14233;
+  padding: 0;
+  width: 100%;
+  height: 110px;
+  position: absolute;
+  border: none;
+}
+a {
+  color: #d14233;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar-right a:hover {
+  border: 2px solid #d14233;
+}
+.logo {
+  width: 150px;
+  height: 60px;
+}
+
+.office-view {
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: calc(110vh - 110px);
+  background-size: cover;
+  background-attachment: inherit;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.container-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.col-md-6 h1 {
+  color: white;
+}
+.flex-footer {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-container {
+  background-color: rgb(59, 12, 12);
+  margin-top: 2rem;
+}
+.footer-txt {
+  color: white;
+  margin: 1em;
+  padding-left: 12em;
+}
+.social ul {
+  padding-left: 55%;
+  display: flex;
+}
+.social ul > li {
+  list-style: none;
+  flex-direction: column;
+  padding: 10px 15px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.social ul > li > a {
+  color: #5bc0de;
+}
+
+.social ul > li > a:hover {
+  color: #fff;
+}
+/* Start up */
+.startups {
+  background: rgb(59, 12, 12);
+  color: #d14233;
+  padding: 0;
+  width: 100%;
+  height: 110px;
+  position: relative;
+}
+.search-bar {
+  position: relative;
+  float: left;
+  width: 90%;
+}
+.col-md-10 h3 {
+  color: rgb(50, 50, 128);
+}
+.list li {
+  list-style: none;
+}
+.content .row {
+  margin-right: -15px;
+  margin-left: -15px;
 }
